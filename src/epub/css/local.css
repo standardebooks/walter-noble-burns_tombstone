@@ -1,2 +1,14 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
+
+footer{
+	margin-top: 1em;
+	text-align: right;
+}
+
+/* "The End" in small caps */
+#chapter-22 footer{
+	font-variant: small-caps;
+	text-align: center;
+	text-transform: lowercase;
+}
