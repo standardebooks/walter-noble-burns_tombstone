@@ -1,9 +1,43 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
+header{
+	font-variant: small-caps;
+	margin: 1em;
+	text-align: center;
+}
+
 footer{
 	margin-top: 1em;
 	text-align: right;
+}
+
+/* "Republican ticket" */
+#chapter-20 blockquote > header{
+	text-transform: uppercase;
+}
+
+#chapter-20 blockquote div{
+	text-align: center;
+	width: 100%;
+}
+
+#chapter-20 blockquote div ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: initial;
+	vertical-align: top;
+}
+
+#chapter-20 blockquote > div > ul{
+	display: inline-block;
+	margin: 0 1em 0 1em;
+}
+
+#chapter-20 blockquote div > ul > ul{
+	margin-bottom: 0.5em;
+	margin-left: 2em;
 }
 
 /* "The End" in small caps */
