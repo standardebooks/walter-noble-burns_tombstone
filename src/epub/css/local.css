@@ -12,6 +12,35 @@ footer{
 	text-align: right;
 }
 
+/* Centered dedications */
+section[epub|type~="dedication"]{
+	text-align: center;
+}
+
+section[epub|type~="dedication"] > *{
+	display: inline-block;
+	margin: auto;
+	margin-top: 3em;
+	max-width: 80%;
+}
+
+@supports(display: flex){
+	section[epub|type~="dedication"]{
+		align-items: center;
+		box-sizing: border-box;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		min-height: calc(98vh - 3em);
+		padding-top: 3em;
+	}
+
+	section[epub|type~="dedication"] > *{
+		margin: 0;
+	}
+}
+/* End centered dedications */
+
 /* "Republican ticket" */
 #chapter-20 blockquote > header{
 	text-transform: uppercase;
@@ -38,6 +67,10 @@ footer{
 #chapter-20 blockquote div > ul > ul{
 	margin-bottom: 0.5em;
 	margin-left: 2em;
+}
+
+#chapter-21 > blockquote:nth-of-type(1){
+	text-align: center;
 }
 
 /* "The End" in small caps */
