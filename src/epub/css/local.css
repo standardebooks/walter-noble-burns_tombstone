@@ -41,6 +41,12 @@ section[epub|type~="dedication"] > *{
 }
 /* End centered dedications */
 
+/* Letters */
+[epub|type~="z3998:signature"]{
+	font-variant: small-caps;
+}
+/* End Letters */
+
 /* "Republican ticket" */
 #chapter-20 blockquote > header{
 	text-transform: uppercase;
