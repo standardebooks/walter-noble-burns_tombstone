@@ -48,6 +48,10 @@ section[epub|type~="dedication"] > *{
 /* End Letters */
 
 /* "Republican ticket" */
+#chapter-20 blockquote:nth-of-type(1){
+	font-size: smaller;
+}
+
 #chapter-20 blockquote > header{
 	text-transform: uppercase;
 }
@@ -70,10 +74,11 @@ section[epub|type~="dedication"] > *{
 	margin: 0 1em 0 1em;
 }
 
-#chapter-20 blockquote div > ul > ul{
+#chapter-20 blockquote div > ul > li ul{
 	margin-bottom: 0.5em;
 	margin-left: 2em;
 }
+
 
 #chapter-21 > blockquote:nth-of-type(1){
 	text-align: center;
