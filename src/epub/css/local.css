@@ -72,10 +72,3 @@ section[epub|type~="dedication"] > *{
 #chapter-21 > blockquote:first-of-type{
 	text-align: center;
 }
-
-/* "The End" in small caps */
-#chapter-22 footer{
-	font-variant: small-caps;
-	text-align: center;
-	text-transform: lowercase;
-}
