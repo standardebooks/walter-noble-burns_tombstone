@@ -4,7 +4,6 @@
 header{
 	font-variant: small-caps;
 	margin: 1em;
-	text-align: center;
 }
 
 footer{
@@ -48,20 +47,11 @@ section[epub|type~="dedication"] > *{
 /* End Letters */
 
 /* "Republican ticket" */
-#chapter-20 blockquote:nth-of-type(1){
-	font-size: smaller;
-}
-
-#chapter-20 blockquote > header{
-	text-transform: uppercase;
-}
-
-#chapter-20 blockquote div{
+#chapter-20 blockquote{
 	text-align: center;
-	width: 100%;
 }
 
-#chapter-20 blockquote div ul{
+#chapter-20 blockquote ul{
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -69,17 +59,17 @@ section[epub|type~="dedication"] > *{
 	vertical-align: top;
 }
 
-#chapter-20 blockquote > div > ul{
+#chapter-20 blockquote > ul{
 	display: inline-block;
 	margin: 0 1em 0 1em;
 }
 
-#chapter-20 blockquote div > ul > li ul{
-	margin-bottom: 0.5em;
+#chapter-20 blockquote > ul > li ul{
+	margin-bottom: 1em;
 	margin-left: 2em;
 }
 
-#chapter-21 > blockquote:nth-of-type(1){
+#chapter-21 > blockquote:first-of-type{
 	text-align: center;
 }
 
