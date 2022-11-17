@@ -41,19 +41,31 @@
 		<dc:subject id="subject-2">Frontier and pioneer life--Arizona--Tombstone</dc:subject>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">sh2009125595</meta>
+		<dc:subject id="subject-3">Outlaws--Arizona--Tombstone--History--19th century</dc:subject>
+		<meta property="authority" refines="#subject-3">LCSH</meta>
+		<meta property="term" refines="#subject-3">Unknown</meta>
+		<dc:subject id="subject-4">Tombstone (Ariz.)</dc:subject>
+		<meta property="authority" refines="#subject-4">LCSH</meta>
+		<meta property="term" refines="#subject-4">Unknown</meta>
+		<dc:subject id="subject-5">Tombstone (Ariz.)--Biography</dc:subject>
+		<meta property="authority" refines="#subject-5">LCSH</meta>
+		<meta property="term" refines="#subject-5">Unknown</meta>
+		<dc:subject id="subject-6">Tombstone (Ariz.)--History--19th century</dc:subject>
+		<meta property="authority" refines="#subject-6">LCSH</meta>
+		<meta property="term" refines="#subject-6">Unknown</meta>
 		<meta property="se:subject">Biography</meta>
 		<meta property="se:subject">Fiction</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<dc:description id="description">An embellished history of the town of Tombstone, Arizona, during its heyday in the late 19th century, featuring well known heroes and outlaws of the American Old West.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;The second of three books by &lt;a href="https://standardebooks.org/ebooks/walter-noble-burns"&gt;Walter Noble Burns&lt;/a&gt; covering the post-Civil War American West, &lt;i&gt;Tombstone: An Iliad of the Southwest&lt;/i&gt;, first published in 1927, is one of the earliest popular semi-fictional histories of some of the West’s most famous lawmen and outlaws, Wyatt Earp (the “Lion of Tombstone”), his brothers Virgil and Morgan, and their friend Doc Holliday face off against rustlers and outlaws like Curly Bill, Billy and Ike Clanton, Frank and Tom McLaury, and Johnny Ringo, culminating in the well-known gunfight at the O.K. Corral.&lt;/p&gt;
+			&lt;p&gt;Throughout the narrative, Burns draws the reader into the life of the a boomtown, from founding, meteoric rise, and final collapse, with a focus on the personalities, conflicts, and myths that have cemented the town and its characters as a fixture in many aspects of American popular culture, including books, comics, radio dramas, films, and television. Burns’ Tombstone is the iconic frontier town of “The Old West.”&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.fadedpage.com/showbook.php?pid=20220711</dc:source>
 		<dc:source>https://archive.org/details/tombstoneiliadof00burn</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<meta property="se:production-notes">typogrify incorrectly removes periods from O.K. Corral abbreviation. En-dashes incorrectly removed by typogrify. modernize spelling alters 'war whoops' in chapter 4</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Tombstone</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/walter-noble-burns_tombstone</meta>
 		<dc:creator id="author">Walter Noble Burns</dc:creator>
 		<meta property="file-as" refines="#author">Burns, Walter Noble</meta>
