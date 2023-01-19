@@ -46,7 +46,7 @@
 		<meta property="term" refines="#subject-3">Unknown</meta>
 		<dc:subject id="subject-4">Tombstone (Ariz.)</dc:subject>
 		<meta property="authority" refines="#subject-4">LCSH</meta>
-		<meta property="term" refines="#subject-4">Unknown</meta>
+		<meta property="term" refines="#subject-4">n81024721</meta>
 		<dc:subject id="subject-5">Tombstone (Ariz.)--Biography</dc:subject>
 		<meta property="authority" refines="#subject-5">LCSH</meta>
 		<meta property="term" refines="#subject-5">Unknown</meta>
