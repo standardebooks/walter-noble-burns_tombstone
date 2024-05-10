@@ -63,7 +63,7 @@
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.fadedpage.com/showbook.php?pid=20220711</dc:source>
 		<dc:source>https://archive.org/details/tombstoneiliadof00burn</dc:source>
-		<meta property="se:word-count">110920</meta>
+		<meta property="se:word-count">110922</meta>
 		<meta property="se:reading-ease.flesch">72.26</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/walter-noble-burns_tombstone</meta>
 		<dc:creator id="author">Walter Noble Burns</dc:creator>
